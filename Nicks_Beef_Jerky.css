@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(236, 230, 182, 0.95);
+}
+h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+  font-size: x-large;
+  margin-bottom: 12px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.para-div {
+  width: 70px;
+  height: 80px;
+  display: inline;
+  word-wrap: break-word;
+}
+
+.para-div p {
+  text-align: start;
+}
+.products {
+  justify-items: left;
+}
+.parent-div {
+  width: 80vw;
+  min-height: 80vh;
+  justify-content: center;
+}
