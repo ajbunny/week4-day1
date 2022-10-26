@@ -1,5 +1,6 @@
 body {
   background-color: rgba(236, 230, 182, 0.95);
+  align-items: center;
 }
 h1 {
   text-align: center;
@@ -20,21 +21,29 @@ img {
   margin-left: 10px;
 }
 
-.para-div {
-  width: 70px;
-  height: 80px;
-  display: inline;
-  word-wrap: break-word;
+.main {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  margin: auto;
+  width: 70%;
 }
 
-.para-div p {
-  text-align: start;
+.para-div {
+  display: flex;
+  /* width: 70%; */
+  height: 80px;
 }
+
+/* .para-div p {
+  text-align: start;
+} */
 .products {
   justify-items: left;
 }
 .parent-div {
-  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  /* width: 100vw; */
   min-height: 80vh;
-  justify-content: center;
 }
