@@ -26,7 +26,7 @@ let mainEl = document.querySelector('main');
 mainEl.style.backgroundColor = 'var(--main-bg)'
 
 let h1 = document.createElement('h1');
-h1.textContent = 'SEI Rocks!'
+h1.textContent = 'SEI Rocks!';
 
 mainEl.appendChild(h1);
 
@@ -76,20 +76,20 @@ topMenuEl.addEventListener('click', function (e) {
 
 });
 
-e.target.classList.add('active');
-let subLink;
+// e.target.classList.add('active');
+// let subLink;
 
-menuLinks.forEach(Element => {
-    if (Element.text === e.target.textContent) {
-        let link = Element; {
-            if (
-                
-            )
-        }
+// menuLinks.forEach(Element => {
+//     if (Element.text === e.target.textContent) {
+//         let link = Element; {
+//             if (
 
-    }
-}
-)
+//             )
+//         }
+
+//     }
+// }
+// )
 
 
 
